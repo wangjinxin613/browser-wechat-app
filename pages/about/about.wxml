@@ -1,0 +1,42 @@
+<view class="head">
+	<image src="/img/logo.png" style="border-radius:100px"/>
+	<view style="padding:15px 0">简单浏览器  v1.0.0</view>
+</view>
+
+<view class="box">
+	<view class="guanyu">
+		关于作者
+	</view>
+	<view>
+		<view class="xian">
+		</view>
+		<view class="right">作者微信<text class="body">wangjinxin613</text></view>
+	</view>
+	<view>
+		<view class="xian">
+		</view>
+		<view class="right">作者介绍<text class="body" decode="true">作者是一名即将毕业的大学生开发者，闲暇之余做了此款小程序，感谢您的支持。</text></view>
+	</view>
+	<view>
+		<view class="xian">
+		</view>
+		<view class="right">作者留言<text class="body">欢迎大学添加微信进行建议和反馈，也谢谢各位的打赏，看到朋友们鼓励的留言心里也是很欣慰的，简单浏览器会持续优化下去</text></view>
+	</view>
+</view>
+
+<view class="box" style="margin-top:15px;">
+	<view class="guanyu">
+		使用小技巧
+	</view>
+	<view>
+		<view class="xian">
+		</view>
+		<view class="right">小技巧一<text class="body">点击右上角的三个小点点，即可进行转发，微信即可使用浏览器，快来告诉你的朋友吧。</text></view>
+	</view>
+</view>
+<view class="box1" style="margin-top:15px;">
+	<button class="btn" bindtap="shoutu" data-src="http://qr.youzhis.cn/img/zanshang.jpg">打赏作者</button>
+	<button class="btn" bindtap="shoutu" data-src="http://qr.youzhis.cn/img/xingqiu.jpg">联系作者</button>
+	<button class="btn" open-type='share'>分享好友</button>
+	<view class="clear"></view>
+</view>
