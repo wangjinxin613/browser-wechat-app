@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	
+	<application setting='false'>
+		<name><![CDATA[简单浏览器]]></name>
+
+		<identifie><![CDATA[wjx_liulanqi]]></identifie>
+
+		<version><![CDATA[1.0.1]]></version>
+
+		<ability><![CDATA[简单浏览器]]></ability>
+
+		<type><![CDATA[services]]></type>
+
+		<description><![CDATA[小程序版浏览器，安卓手机可以访问大部分网站,不用设置业务域名也可以打开淘宝百度]]></description>
+
+		<author><![CDATA[优质生]]></author>
+
+		<url><![CDATA[http://youzhis.cn]]></url>
+
+		<setting><![CDATA[]]></setting>
+
+	</application>
+
+	
+	<platform>
+		<rule embed="false" />
+
+		<rule embed="false" />
+
+	<supports>
+
+			<item type="wxapp" />
+	</supports>
+
+	</platform>
+
+	
+	<bindings>
+
+		
+
+	</bindings>
+
+	<install><![CDATA[]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>
