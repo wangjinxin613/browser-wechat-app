@@ -24,7 +24,6 @@ https://s.we7.cc/module-9861.html
 
 ![jieyou](http://cdn.w7.cc/images/2018/05/23/KJGH0GJtZtgbGFNPKIpGCGPvS5gsrSzUIuUctJd3.png?imageView2/2/w/217/h/390/format/png "首页图")  ![jieyou](http://cdn.w7.cc/images/2018/05/23/ra9Q7KwA9PIoWbUUfuSLCiIb1mW5ybfW4hDAQaLf.png?imageView2/2/w/217/h/390/format/png "个人中心")  ![jieyou](https://cdn.w7.cc/images/2018/05/21/8bCgXAq6qskyWTjzM7ofw8siuS5L4hYdMUpjGz4b.png?imageView2/2/w/217/h/390/format/png "个人中心") 
 
-![jieyou](http://cdn.w7.cc/images/2018/06/14/njQy7NlbiOSkLxNXnQsnJP4tPihBRzTgkQU6gor5.png?imageView2/2/w/217/h/390/format/png "信详情") 
 ![jieyou](https://cdn.w7.cc/images/2018/06/14/VLvEBA25hnT9XfxP1raRR4O7ySrivf8NGca7ibUl.png "收信箱") 
 
 作者微信：wangjinxin613
