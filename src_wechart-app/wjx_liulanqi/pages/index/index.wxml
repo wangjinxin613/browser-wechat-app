@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<form bindsubmit="formSubmit">
+     <view class="head">
+          <image src="/img/logo.png" class="img" animation="{{animationData}}" />
+          <view class="serch_img">
+               <image src="https://qr.youzhis.cn/img/serch.png" class="serch_image" />
+
+               <input type="text" class="serch" placeholder="输入搜索词或者网址" placeholder-style="color:#fff" confirm-type="done" name="key" formType="submit" />
+          </view>
+          <button formType="submit" hover-class="btn" class="serch-btn">开始</button>
+     </view>
+</form>
+
+<view class="body">	
+	<!-- 书签列表 -->
+     <block wx:for="{{itemData}}" wx:key="key">
+          <view class="single" bindlongtap='delete' data-id="{{item.id}}" data-index="{{index}}" bindtap='location' data-url="{{item.url}}" bindtouchstart="bindTouchStart" bindtouchend="bindTouchEnd">
+               <image src="tu" src="{{item.img == '' ? defaultImg : item.img}}" />
+               <view class="">{{item.text}}</view>
+          </view>
+     </block>
+	<!-- 添加书签 -->
+     <view class="single" bindtap='addBtn'>
+          <image src="tu" src="/img/jia.png" style="background:#fff;" />
+          <view class="">Add</view>
+     </view>
+     <view class="clear"></view>
+</view>
+
+<!-- 写个弹窗 添加书签 -->
+<view class="layer" style="display:{{isLayer?'block':'none'}}">
+	<form bindsubmit='addSubmit'>
+		<input type="text" placeholder='请输入链接网址' name="url" value='https://'/>
+		<input type="text" placeholder='请输入文字信息' name="text"/>
+		<button size="mini" form-type='submit'>添加</button>
+	</form>
+</view>
+
+<!-- 遮罩层 -->
+<view class="shade" style="display:{{isLayer?'block':'none'}}" bindtap="layerOut"></view>
+
+<!-- 关于我们按钮 -->
+<!--
+<navigator url="/wjx_liulanqi/pages/about/about">
+     <image src="/img/about.png" class="foot_img" />
+</navigator>
+-->

@@ -1,0 +1,135 @@
+/**index.wxss**/
+page{
+	background:#eee;
+}
+.head{
+	background: #20C377;
+	padding:40px 0 35px 0;
+	text-align: center;
+	
+}
+.serch{
+	background:#17B16B;
+	line-height: 40px;
+	height: 40px;
+	padding:0 20rpx 0 35px;
+	font-size: 15px;
+	color:#fff;
+	text-align: left;
+	border-radius:3px;
+	margin-top:20px;
+	z-index: -1;
+
+}
+.img{
+	width:90px;
+	height: 90px;
+}
+.place{
+	color:#fff;
+}
+.serch_img{
+		
+	line-height: 40px;
+	height: 40px;
+	z-index: 1;
+	width:90%;
+	margin:0 auto;
+	text-align: left;
+		vertical-align: middle;
+}
+.serch_image{
+	width:22px;
+	height: 22px;
+	text-align: left;
+	position: absolute;
+	line-height: 40px;
+	margin-top:20rpx;
+	vertical-align: middle;
+	margin-left:10px;
+}
+.body{
+	font-size: 14px;
+
+}
+.body .single{
+	width:25%;
+	float:left;
+	margin-top:35px;
+	text-align: center;
+}
+.body .single view{
+	margin-top:5px;
+}
+.body .single image{
+	width:50px;
+	height:50px;
+	border-radius: 100px;
+}
+.foot_img{
+	position: fixed;
+	width:32px;
+	z-index: 100;
+	height:32px;
+	bottom:13px;
+	left: 0px;
+	right: 0px;
+  	margin:0 auto;
+	padding:1px 1px;
+	border-radius: 100px;
+	box-shadow: 0px 0px 4px #666;
+}
+.clear{
+	clear: both;
+}
+button.serch-btn{
+	width:60%;
+	margin-top:30px;
+	font-size: 14px;
+	padding:0;
+	background:#17B16B;
+	color:#fff;
+}
+.btn{
+	background:#17B16B;
+}
+/* 弹窗 */
+
+.layer{
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background:#fff;
+	z-index: 101;
+	width: 65%;
+	top: 50%;
+	padding:10px 20px 20px;
+}
+.layer input{
+	width: 100%;
+	border-bottom:2px solid #20C377;
+	font-size: 0.9em;
+	padding: 6px 0;
+	margin: 10px 0;
+}
+.layer button{
+	background: #20C377;
+	color: #fff;
+	margin-top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 0;
+	width: 40%;
+	padding: 2px 0;
+}
+
+.shade{
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	filter:blur(2px); /* 模糊 */
+}

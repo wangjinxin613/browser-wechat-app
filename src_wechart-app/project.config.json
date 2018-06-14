@@ -1,0 +1,50 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.1",
+	"appid": "wxae2a0da31de7824a",
+	"projectname": "%E7%AE%80%E5%8D%95%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8D%87%E7%BA%A7%E7%89%88",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "关于我们",
+					"pathName": "pages/about/about",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "网址页面",
+					"pathName": "pages/detail/index",
+					"query": "url=http://m.5maos.cn/app/index.php?i=5&c=entry&m=ewei_shopv2&do=mobile"
+				}
+			]
+		}
+	}
+}
